@@ -1,0 +1,74 @@
+.contacts_block{
+    width:100%;
+    height:100%;
+    background:#172434;
+   opacity: 0.9;
+   text-align: center;
+   padding:50px 0;
+}
+.contacts_background{
+    width: 100%;
+    height: 100%;
+    background: url(../img/contactsBG.jpg);
+    background-attachment: fixed;
+}
+.contacts_block h3{
+    padding:50px 0;
+    font-size:8vmin;
+      color: white;
+}
+.contacts_block a{
+    color:white;
+    font-size:20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    }
+    .contacts_block .home span{
+       color:rgba(255, 255, 255, 0.425);
+       font-size:20px;
+       text-decoration: none;
+       text-transform: uppercase;
+       }
+    .contacts_block a:hover{
+        text-decoration: underline;
+    }
+    .contacts_info{
+        width: 100%;
+        height: 100%;
+        background:#eaeaea;
+        padding:50px 0;
+        color: black;
+        display: flex;
+        justify-content: center;
+        font-size:20px;
+    }
+    .contacts_info_conteiner{
+        width:85%;
+        height: 100%;
+        background:white;
+        padding:30px;
+           }
+           .contacts_info_box{
+               display: flex;
+               justify-content: space-between;
+           }
+    .contacts_tel_email{
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+       margin:10px 0;
+    }
+    
+    .contacts_tel_email p:nth-child(2) {
+        padding-left: 44px;
+        margin:10px 0;
+    }
+    .contacts_address{
+        margin:10px 0;
+    }
+    .contacts_info a{
+        color:black;
+    }
+    .contacts_info a:hover{
+        text-decoration: none;
+    }
